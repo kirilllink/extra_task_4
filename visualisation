@@ -1,0 +1,4 @@
+// визуализация графа
+choco install graphviz
+choco install graphviz -y
+dot -Tpng graph.dot -o graph.png
